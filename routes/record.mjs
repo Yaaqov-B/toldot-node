@@ -17,6 +17,7 @@ function getRabbi(req) {
     books: req.body.books,
     teachers: req.body.teachers,
     students: req.body.students,
+    cc: req.body.cc,
   }
 }
 // This section will help you get a list of all the records.
